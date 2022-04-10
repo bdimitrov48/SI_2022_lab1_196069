@@ -2,4 +2,4 @@ leb - 1
 brashno - 1
 sok - 3
 voda - 2
-zejtin - 2
+zejtin - 5
