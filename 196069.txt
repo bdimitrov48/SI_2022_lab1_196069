@@ -1,0 +1,96 @@
+4. Клонирање на remote репозиториумот 
+git clone https://github.com/bdimitrov48/SI_2022_lab1_196069.git
+
+5. Додавање на shopping_list.txt со 5 продукти и порака "Add 5 items to the shopping list"
+git add shopping_list.txt
+git commit -m  "Add 5 items to the shopping list"
+
+6. Додавање на квантитет на продуктите со порака "Add quantities to the items"
+git commit -a -m  "Add quantities to the items."
+
+7. Креирање на branch1 и branch2
+git branch branch1
+git branch branch2
+
+8. Досегашни логови
+commit f9b8407bcdba206f38a4e84925b8d600d2883ce6 (HEAD -> master, branch2, branch1)
+Author: Boris Dimitrov <bdimitrov48@gmail.com>
+Date:   Sun Apr 10 22:24:56 2022 +0200
+
+    Add quantities to the items.
+
+commit 836ac0a105bcc99798fd175dfc193c7b9df4f9a0
+Author: Boris Dimitrov <bdimitrov48@gmail.com>
+Date:   Sun Apr 10 22:23:05 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit b25fd0edb7c22f6a2665d62d97dce4c389d8831f (origin/master, origin/HEAD)
+Author: bdimitrov48 <101012012+bdimitrov48@users.noreply.github.com>
+Date:   Sun Apr 10 22:19:42 2022 +0200
+
+    Update README.md
+
+commit f5def5aa211f4a8e9527f08fd60bade4b392fce4
+Author: bdimitrov48 <101012012+bdimitrov48@users.noreply.github.com>
+Date:   Sun Apr 10 22:19:14 2022 +0200
+
+    Initial commit
+
+9. Синхронизирање на сите гранки со remote репозиториумот
+git push --all
+
+10. Се префрламе на branch1
+git checkout branch1
+
+11. Промена на квантитетот на петтиот продукт во branch1
+git commit -a -m  "Change quantity of item #5"
+
+12. Се враќаме на master
+git checkout master
+
+13. Промена на квантитетот на петтиот продукт во master
+git commit -a -m  "Change quantity of item #2"
+
+14. Синхронизирање на сите гранки со remote репозиториум
+git push --all
+
+15. Се префрламе на branch2
+git checkout branch2
+
+16. Промена на четвртиот продукт во branch2
+git commit -a -m  "Modify item #4"
+
+17. Досегашни логови
+commit f9b8407bcdba206f38a4e84925b8d600d2883ce6 (HEAD -> branch2, origin/branch2)
+Author: Boris Dimitrov <bdimitrov48@gmail.com>
+Date:   Sun Apr 10 22:24:56 2022 +0200
+
+    Add quantities to the items.
+
+commit 836ac0a105bcc99798fd175dfc193c7b9df4f9a0
+Author: Boris Dimitrov <bdimitrov48@gmail.com>
+Date:   Sun Apr 10 22:23:05 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit b25fd0edb7c22f6a2665d62d97dce4c389d8831f
+Author: bdimitrov48 <101012012+bdimitrov48@users.noreply.github.com>
+Date:   Sun Apr 10 22:19:42 2022 +0200
+
+    Update README.md
+
+commit f5def5aa211f4a8e9527f08fd60bade4b392fce4
+Author: bdimitrov48 <101012012+bdimitrov48@users.noreply.github.com>
+Date:   Sun Apr 10 22:19:14 2022 +0200
+
+    Initial commit
+
+20.Спојување на master со branch1
+git merge branch1
+
+21.Спојување на master со branch2
+git merge branch2
+
+
+
