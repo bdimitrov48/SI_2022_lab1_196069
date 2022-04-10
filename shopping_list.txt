@@ -1,5 +1,5 @@
 leb - 1
-brashno - 1
+brashno - 2
 sok - 3
 voda - 2
 zejtin - 2
